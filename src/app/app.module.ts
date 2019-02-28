@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
 import { SelectComponent } from './select/select.component';
 import { ResultComponent } from './result/result.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ResultComponent } from './result/result.component';
     ResultComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

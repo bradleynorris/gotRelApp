@@ -1,0 +1,14 @@
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+}
+
+.landing-item {
+    max-width: 80%;
+}
