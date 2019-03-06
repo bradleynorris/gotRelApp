@@ -1,0 +1,19 @@
+.charSelect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+}
+
+.selectModules {
+    display: flex;
+    flex-direction: row;
+}
+
+mat-form-field {
+    margin: 20px;
+}

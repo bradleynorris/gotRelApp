@@ -1,3 +1,4 @@
+import { MatButtonModule } from '@angular/material';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -9,7 +10,6 @@ export class SelectComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
 }
