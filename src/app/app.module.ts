@@ -8,13 +8,21 @@ import { LandingComponent } from './landing/landing.component';
 import { SelectComponent } from './select/select.component';
 import { ResultComponent } from './result/result.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { SansaResultComponent } from './result/sansa-result/sansa-result.component';
+import { AryaResultComponent } from './result/arya-result/arya-result.component';
+import { BranResultComponent } from './result/bran-result/bran-result.component';
+import { SamResultComponent } from './result/sam-result/sam-result.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingComponent,
     SelectComponent,
-    ResultComponent
+    ResultComponent,
+    SansaResultComponent,
+    AryaResultComponent,
+    BranResultComponent,
+    SamResultComponent
   ],
   imports: [
     BrowserModule,

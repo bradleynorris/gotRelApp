@@ -1,0 +1,16 @@
+<div class="container">
+  <h2 class="mat-display-2">Sansa Stark</h2>
+  <p class="mat-body">Choose a character en route to Winterfell to see their relationship:</p>
+  <mat-form-field color="primary">
+    <mat-select color="primary" placeholder="En Route...">
+      <mat-option *ngFor="let result of results" value="{{ result.id }}" (click)="onSelect(result)">{{ result.id }}</mat-option>
+
+    </mat-select>
+  </mat-form-field>
+  <!-- <button color="primary" mat-raised-button (click)="onSelect(result)">WHATS IN STORE?</button> -->
+
+  <div class="result-info" *ngIf="selectedResult">
+    <h1 class="mat-display-2">{{ selectedResult.title | uppercase }}</h1>
+    <p class="mat-body-strong">{{ selectedResult.description }}</p>
+  </div>
+</div>

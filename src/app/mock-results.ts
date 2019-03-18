@@ -1,33 +1,36 @@
 import { Result } from './result';
 
-export const RESULTS: Result[] = [
-    {id: 'SansaJon',
+export const SANSARESULTS: Result[] = [
+    {id: 'Jon Snow',
      title: 'Sansa Stark and Jon Snow',
      description: 'These two will not have much to catch up on as Jon just left Sansa\'s side last season. Although they will need to discuss the ramifications of Jon bending the knee to Daenerys, and what effect that will have on the Northern Lords, of whom Sansa has been keeping calm in Jon\'s absence. Will the Northern Lords look past Jon\'s decision to focus on the larger task at hand or will they see this as another slight against the North and decide to back Sansa as the true leader of the Northern Houses? To further muddy the waters, Jon\'s lineage throws another wrench in the gears as Sansa will surely be seen as the rightful Wardeness of the North if Jon is revealed to not be the son of Eddard Stark, as we all know. Sansa has been proving herself capable of running the North in Jon\'s absence and Jon may see this as a way out of his obligation if news of his true lineage drives him to seek the Iron Throne for himself.'},
-    {id: 'SansaDany',
+    {id: 'Daenerys Targaryen',
      title: 'Sansa Stark and Daenerys Targaryen',
      description: 'It is possible that Sansa could see Jons love for Dany as an unecessary distraction to the larger task at hand, defeating the Army of the Dead. Add to this that Sansa has been leading in the North very capably in Jons absence and when he shows up back at Winterfell with Dany on his arm, she could be taking a back seat to Jons new beau. One thought that can bring comfort in their relationship is their shared disdain for Cersei and desire to see the current Queen defeated. But just as Cercei tortured Sansa, Danys father burned Sansas uncle and grandfather alive. Not an easy thing to forget.'},
-    {id: 'SansaTyrion',
+    {id: 'Tyrion Lannister',
      title: 'Sansa Stark and Tyrion Lannister', 
      description: 'The Honeymoon is over. The reunion of Sansa and Tyrion will be an interesting one, as the two were wed in a sham marriage arranged by Queen Cersei as a punishment to them both.  Before Sansa fled Kings Landing with Littlefinger, Sansa and Tyrion seemed to be coping with their new arrangement, so there is hope that there is no bad blood between them. But Tyrion\'s still a Lannister, and Sansa may still take issue with hosting a Lannister in the Stark home, regardless of the situation. Both have travelled great distances and endured much hardship to get where they are now. Perhaps Sansa and Tyrion can bond over this and put their past behind them.'},
-    {id: 'SansaJorah',
+    {id: 'Jorah Mormont',
      title: 'Sansa Stark and Jorah Mormont', 
      description: 'There isn\'t much connection between these two.  Aside from the fact that the Mormonts are a Northern House and Sansa has great respect for Lyanna Mormont\'s bravery, Sansa and Jorah will not have much to discuss.  If Sansa continues on as Wardeness of the North, it is possible that she could pardon Jorah\'s past transgressions and restore his name in the North, but she doesnt really know him well enough to make that decision.'},
-    {id: 'SansaJaime',
+    {id: 'Jaime Lannister',
      title: 'Sansa Stark and Jaime Lannister', 
      description: 'Out of all the Lannisters, Jaime may have had the least to do with Sansa\'s troubles in Kings Landing.  Everyone will have a tough time trusting Jaime\'s intentions as he arrives in the North, that\'s no secret. The one main connection between these two would be Brienne and her oath. Brienne was tasked by Jaime to find Sansa and Arya and ensure their safe return home, a task that proved to be far more difficult than all parties had hoped. It could be said that the only reason Sansa is still alive is because Jaime tasked Brienne with fufilling his agreement with Sansa\'s mother. This act alone could curry favor between Sansa and the King Slayer.'},
-    {id: 'SansaVarys',
+    {id: 'Varys',
      title: 'Sansa Stark and Varys', 
      description: 'Sansa, like most of the people who have ever had the (mis?)fortune to cross paths with Varys, will likely find it difficult to trust the Spider. He was a central figure in the Lannister council during Sansa\'s time at the capitol, of which she is not likely to look fondly on. Much like Tyrion though, Varys has travelled a great distance and now finds himself at the side of Daenerys Targaryen, who will be presented as an ally to Sansa and the North if the day should come that they take arms against the Queen. "The enemy of my enemy is my friend" but when it comes to Varys, the lines sometimes tend to get blurred.'},
-    {id: 'SansaBrienne',
+    {id: 'Brienne of Tarth',
      title: 'Sansa Stark and Brienne of Tarth', 
      description: 'These two only recently left eachother\'s sides. The only thing that needs to be discussed between them is the death of Peter Baelish and what ramifications that may present.  So far, it would appear that the Lords of the Vale have still chosen to side with Sansa. Sansa and Brienne should be back to being old pals upon Brienne\'s return. Perhaps even closer without Littlefinger to whisper in Sansa\'s ear.'},
-    {id: 'SansaGendry',
+    {id: 'Gendry',
      title: 'Sansa Stark and Gendry', 
      description: 'No real connection between these two, as Gendry will really only be reuniting with Arya as far as the Winterfell inhabitants are concerned. Arya and Gendry had a bit of a "will-they-won\'t-they" relationship in the past though and if Sansa could see Arya pine for Gendry once again, it could give Sansa hope that her little sister is more than just a bloodthirsty assassin. Sansa is seemingly a bit thrown by how cold-blooded Arya has become and a relationship with Gendry could restore Sansa\'s faith in Arya\'s humanity.'},
-    {id: 'SansaHound',
+    {id: 'Sandor Clegane',
      title: 'Sansa Stark and Sandor "The Hound" Clegane', 
      description: 'Oof! What a strange relationship these two had during their days in Kings Landing.  The Hound once saved this "Little Bird" from being torn to bits by an angry mob. There was the time Joffrey ordered Clegane to strike Sansa if she wouldn\'t look at her father\'s severed head. Then there was the strange confrontation before Clegane\'s departure during the Battle at Blackwater Bay. The truth is though, their interactions were only ever frightning because of the control that Joffrey and Cersei had over The Hound. In the days since they last saw eachother, The Hound has travelled north of the wall alongside Jon, saved Arya from being another dead Stark at the Red Wedding and pledged his life to defeating the Army of the Dead. If that doesn\'t help Sansa come around on Sandor Clegane, what will? '},
+]
+
+export const ARYARESULTS: Result[] = [
     {id: 'AryaJon',
      title: 'Arya Stark and Jon Snow', 
      description: 'Reunited and it feels so good! C\'mon, this is the one we are all waiting for, right? Arya grew up as a starry-eyed tomboy, and Jon a bastard that never felt truly at home in Winterfell.  It\'s no wonder these two had such a great connection (from the two episodes we saw them together). As Sansa said, "Jon\'s heart will stop when he sees you\'ve returned." Add to this that Arya has become a great warrior AND still has the blade that Jon had made specifically for her before their departure, and we might finally see them both giddy with joy. A lot has happened to both of them throughout the last seven seasons, so their catching up may need to wait until the battle is won, but imagine how great it would be to see the two of them fighting side by side. I have goosebumps! Aside from all this, they are the only Starks who still have their Direwolves (albeit, neither seem to be nearby ever), and they both have Valyrian Steel weapons; great for killing White Walkers. I can\'t wait! '},
@@ -55,6 +58,9 @@ export const RESULTS: Result[] = [
     {id: 'AryaHound',
      title: 'Arya Stark and Sandor Clegane', 
      description: 'What a reunion this will be! The two travelled the Westerosi countryside, albiet under a bit of duress. They killed alongside in the name of chicken and ale. The Hound saved Arya from certain death at the Red Wedding, but then tried to sell her to her aunt unsuccessfully. Arya chose The Hound over Brienne\'s company when they all first met, but then left him to die moments later. It\'s clear these two have a very complicated relationship. Clegane is no longer the heartless nomad he was before their departure. Arya is no longer the helpless little girl she was before their departure. Perhaps how they spent their time apart will help them appreciate eachother when they reunite.'},
+]
+
+export const BRANRESULTS: Result[] = [
     {id: 'BranJon',
      title: 'Brandon Stark and Jon Snow', 
      description: '"Jon, you\'re gonna want to sit for this one." Aside from the fact that the brothers have not seen each other since season1 when Jon was on his first life and Bran was still able to walk. Aside from the fact that the brothers have both had extensive trips north of the Wall and numerous run-ins with the Army of the Dead. Aside from the fact that the brothers were at Crastor\'s Keep at the same time and just missed each other. The biggest dynamic of this reunion will be Bran having to explain that Jon is not the bastard son of Ned Stark and that his parents are actually Lyanna Stark and Rhaegar Targaryen. Also, his new love, Dany, is actually his aunt. Also, technically Jon has a greater case for the Iron Throne than the woman he pledged to help take said throne. That\'s a lot to process. Take your time brother...er...cousin. '},
@@ -82,6 +88,9 @@ export const RESULTS: Result[] = [
     {id: 'BranHound',
     title: 'Brandon Stark and Sandor Clegane', 
     description: 'No real connection exists between Bran and The Hound. But if we\'re gonna speculate here, can you think of a better replacement for Hodor? Just saying.'},
+]
+
+export const SAMRESULTS: Result[] = [
     {id: 'SamJon',
     title: 'Samwell Tarly and Jon Snow', 
     description: 'Jon sent Sam to The Citadel with the intention of Sam training to be the next Maester of Castle Black and Sam betrayed his duty. This will infuriate the King in the North! No, not really. If you think Jon will be anything but elated to see his bff, you\'re crazy. Sam helped Jon by alerting him to the dragon glass mines at Dragonstone, so Jon owes him one. There is speculation that some of the scrolls that Sam took from the Citadel may contain information on how to defeat the Army of the Dead, including some information on how to forge Valyrian Steel weapons. This is a bit of a stretch but surely there has to be something of importance in those dusty old scrolls. The big old elephant in the room though, will be Samwell\'s discovery regarding Jon\'s true identity. This will surely be a tough pill to swallow for Jon.'},
