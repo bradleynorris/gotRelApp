@@ -1,29 +1,16 @@
 <div class="charSelect">
-  <h2>Select Your Characters</h2>
+  <h2 class="mat-display-2">Select Your Character</h2>
+  <p class="mat-body">Choose one of the main characters currently at Winterfell</p>
 <!-- selection modules -->
   <div class="selectModules">
     <mat-form-field color="primary">
       <mat-select color="primary" placeholder="at Winterfell..." [(value)]="char1">
-        <mat-option value="Sansa">Sansa Stark</mat-option>
-        <mat-option value="Arya">Arya Stark</mat-option>
-        <mat-option value="Bran">Bran Stark</mat-option>
-        <mat-option value="Sam">Samwell Tarly</mat-option>
+        <mat-option value="sansa">Sansa Stark</mat-option>
+        <mat-option value="arya">Arya Stark</mat-option>
+        <mat-option value="bran">Bran Stark</mat-option>
+        <mat-option value="sam">Samwell Tarly</mat-option>
       </mat-select>
     </mat-form-field>
-  
-    <mat-form-field color="primary">
-        <mat-select color="primary" placeholder="En Route..." [(value)]="char2">
-          <mat-option value="Jon">Jon Snow</mat-option>
-          <mat-option value="Dany">Daenerys Targaryen</mat-option>
-          <mat-option value="Tyrion">Tyrion Lannister</mat-option>
-          <mat-option value="Jorah">Jorah Mormont</mat-option>
-          <mat-option value="Jamie">Jaime Lannister</mat-option>
-          <mat-option value="Varys">Varys</mat-option>
-          <mat-option value="Brienne">Brienne of Tarth</mat-option>
-          <mat-option value="Gendry">Gendry</mat-option>
-          <mat-option value="Hound">Sandor Clegane</mat-option>
-        </mat-select>
-      </mat-form-field>
   </div>
-  <button color="primary" mat-raised-button routerLink="/sansa">WHATS IN STORE?</button>
+  <button color="primary" mat-raised-button routerLink="/{{char1}}">NEXT</button>
 </div>
