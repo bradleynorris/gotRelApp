@@ -1,3 +1,11 @@
-<p>
-  bran-result works!
-</p>
+<div class="container">
+    <h2 class="mat-display-2">Brandon Stark</h2>
+    <p class="mat-body">Choose a character en route to Winterfell to see their relationship:</p>
+    <mat-form-field color="primary">
+      <mat-select color="primary" placeholder="En Route...">
+        <mat-option *ngFor="let result of results" value="{{ result.id }}" [class.selected]="result === selectedResult" (click)="onSelect(result)">{{ result.id }}</mat-option>
+  
+      </mat-select>
+    </mat-form-field>
+    <app-result [result]="selectedResult"></app-result>
+  </div>

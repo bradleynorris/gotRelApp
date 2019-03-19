@@ -1,9 +1,4 @@
-<div class="result-container" *ngFor="let result of results">
-  <h1>{{RESULT.title}}</h1>
-  <!-- <div class="picture-container">
-    <img src="../../assets/images/{{RESULT.picture}}" alt="{{RESULT.name}}">
-    <img src="../../assets/images/{{RESULT.picture}}" alt="{{RESULT.name}}">
-  </div> -->
-  <p>{{RESULT.description}}</p>
-  <button color="primary" mat-raised-button routerLink="/select">SELECT ANOTHER PAIR</button>
+<div class="result-info" *ngIf="result">
+  <h1 class="mat-display-2">{{ result.title | uppercase }}</h1>
+  <p class="mat-body-strong">{{ result.description }}</p>
 </div>

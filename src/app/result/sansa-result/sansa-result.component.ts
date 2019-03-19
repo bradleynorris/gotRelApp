@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-
 import { Result } from '../../result';
-import { SANSARESULTS } from '../../mock-results';
+import { ResultsService } from '../../results.service';
 
 @Component({
   selector: 'app-sansa-result',
@@ -11,15 +10,21 @@ import { SANSARESULTS } from '../../mock-results';
 })
 export class SansaResultComponent implements OnInit {
 
-  results = SANSARESULTS;
   selectedResult: Result;
+  results: Result[];
+
+  constructor(private resultsService: ResultsService) { }
+
+  ngOnInit() {
+    this.getSansaResults();
+  }
+
   onSelect(result: Result): void {
     this.selectedResult = result;
   }
 
-  constructor() { }
-
-  ngOnInit() {
+  getSansaResults(): void {
+    this.resultsService.getSansaResults().subscribe(results => this.results = results);
   }
 
 }
