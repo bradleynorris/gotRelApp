@@ -9,6 +9,11 @@
     color: white;
 }
 
-.mat-display-2 {
+.mat-display-1 {
     margin: 0;
+    text-align: center;
+}
+
+.mat-body {
+    text-align: center;
 }

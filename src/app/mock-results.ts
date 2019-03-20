@@ -94,7 +94,7 @@ export const SAMRESULTS: Result[] = [
     {id: 'Jon Snow',
     title: 'Samwell Tarly and Jon Snow', 
     description: 'Jon sent Sam to The Citadel with the intention of Sam training to be the next Maester of Castle Black and Sam betrayed his duty. This will infuriate the King in the North! No, not really. If you think Jon will be anything but elated to see his bff, you\'re crazy. Sam helped Jon by alerting him to the dragon glass mines at Dragonstone, so Jon owes him one. There is speculation that some of the scrolls that Sam took from the Citadel may contain information on how to defeat the Army of the Dead, including some information on how to forge Valyrian Steel weapons. This is a bit of a stretch but surely there has to be something of importance in those dusty old scrolls. The big old elephant in the room though, will be Samwell\'s discovery regarding Jon\'s true identity. This will surely be a tough pill to swallow for Jon.'},
-    {id: 'Daenerys',
+    {id: 'Daenerys Targaryen',
     title: 'Samwell Tarly and Daenerys Targaryen', 
     description: 'Dany thinks she wiped House tarly out of existence when she had Drogon torch Lord Randall and Dickon Tarly. Good news, there\'s still one Tarly left! Bad news, he\'s Jon\'s best friend and you\'re going to have to break the news to him. Samwell\'s relationship with his father and brother was not the best, but learning that Jon\'s new lover executed your family still can\'t feel great. It is going to make for a tense best man speech at the wedding. And all this after Sam saved Dany\'s beloved Jorah from the grips of Greyscale. '},
     {id: 'Tyrion Lannister',
