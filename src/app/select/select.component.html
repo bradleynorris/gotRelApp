@@ -4,7 +4,7 @@
 <!-- selection modules -->
   <div class="selectModules">
     <mat-form-field color="primary">
-      <mat-select color="primary" placeholder="at Winterfell..." [(value)]="char1">
+      <mat-select color="primary" (valueChange)="onChange($e)" placeholder="at Winterfell..." [(value)]="char1">
         <mat-option value="sansa">Sansa Stark</mat-option>
         <mat-option value="arya">Arya Stark</mat-option>
         <mat-option value="bran">Bran Stark</mat-option>
@@ -12,5 +12,5 @@
       </mat-select>
     </mat-form-field>
   </div>
-  <button color="primary" mat-raised-button routerLink="/{{char1}}">NEXT</button>
+  <button id="nextBtn" color="primary" [disabled]="!buttonDisabled" mat-raised-button routerLink="/{{char1}}">NEXT</button>
 </div>

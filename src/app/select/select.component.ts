@@ -1,4 +1,3 @@
-import { MatButtonModule } from '@angular/material';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -9,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class SelectComponent implements OnInit {
 
   char1: '';
+  $e: '';
+  buttonDisabled: boolean;
+
+  onChange(e) {
+    this.buttonDisabled = true;
+  }
 
   constructor() { }
 
   ngOnInit() { }
+
 
 }
