@@ -1,5 +1,6 @@
 <div class="result-info" *ngIf="result">
   <h1 class="mat-display-1">{{ result.title | uppercase }}</h1>
+  <img class="result-img" src="../../assets/images/{{ result.photo }}" alt="">
   <p class="mat-body">{{ result.description }}</p>
   <button color="primary" mat-raised-button routerLink="/select">START OVER</button>
 </div>

@@ -11,7 +11,7 @@ export class SelectComponent implements OnInit {
   $e: '';
   buttonDisabled: boolean;
 
-  onChange(e) {
+  onChange() {
     this.buttonDisabled = true;
   }
 

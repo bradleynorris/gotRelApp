@@ -17,3 +17,17 @@
 .mat-body {
     text-align: center;
 }
+
+.result-img {
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+@media only screen and (max-width: 768px) {
+    .result-img {
+        border-radius: 5px;
+        max-width: 200px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+}
