@@ -73,7 +73,7 @@ export const ARYARESULTS: Result[] = [
     {
         id: 'Tyrion Lannister',
         title: 'Arya Stark and Tyrion Lannister',
-        description: 'Their connection is pretty thin. Arya and Tyrion had never had much interaction as Tyrion was sleeping off-site at Winterfell and he did not travel back to Kings Landing with the rest of his family in season 1. At the end of the day, though, his family name will not sit well with the naturally-untrusting Arya.  The Lannisters are responsible for the death of her mother and brother, Robb.  The one person Arya would like to kill most in this world, Cersei, is Tyrion\'s sister. The one who crippled Bran, Jaime, is Tryion\'s brother. It will take a lot for Arya to be comfortable with a Lannister in Winterfell again. One positive connection they have is that they both grew up adoring the stories of the Targaryen Dragonriders. And if they could see past all their differences, it would be interesting to see Arya discuss with Tyrion her interactions with his father Tywin at Herrenhall. Tywin was kind to Arya in a way that would likely seem foreign to Tyrion. ',
+        description: 'Their connection is pretty thin. Arya and Tyrion had never had much interaction as Tyrion was sleeping off-site at Winterfell and he did not travel back to Kings Landing with the rest of his family in season 1. At the end of the day, though, his family name will not sit well with the naturally-untrusting Arya.  The Lannisters are responsible for the death of her father, mother and brother, Robb.  The one person Arya would like to kill most in this world, Cersei, is Tyrion\'s sister. The one who crippled Bran, Jaime, is Tryion\'s brother. It will take a lot for Arya to be comfortable with a Lannister in Winterfell again. One positive connection they have is that they both grew up adoring the stories of the Targaryen Dragonriders. And if they could see past all their differences, it would be interesting to see Arya discuss with Tyrion her interactions with his father Tywin at Herrenhall. Tywin was kind to Arya in a way that would likely seem foreign to Tyrion. ',
         photo: 'aryatyrion.jpg'
     },
     {
@@ -181,7 +181,7 @@ export const SAMRESULTS: Result[] = [
     {
         id: 'Daenerys Targaryen',
         title: 'Samwell Tarly and Daenerys Targaryen',
-        description: 'Dany thinks she wiped House tarly out of existence when she had Drogon torch Lord Randall and Dickon Tarly. Good news, there\'s still one Tarly left! Bad news, he\'s Jon\'s best friend and you\'re going to have to break the news to him. Samwell\'s relationship with his father and brother was not the best, but learning that Jon\'s new lover executed your family still can\'t feel great. It is going to make for a tense best man speech at the wedding. And all this after Sam saved Dany\'s beloved Jorah from the grips of Greyscale. ',
+        description: 'Dany thinks she wiped House Tarly out of existence when she had Drogon torch Lord Randall and Dickon Tarly. Good news, there\'s still one Tarly left! Bad news, he\'s Jon\'s best friend and you\'re going to have to break the news to him. Samwell\'s relationship with his father and brother was not the best, but learning that Jon\'s new lover executed your family still can\'t feel great. It is going to make for a tense best man speech at the wedding. And all this after Sam saved Dany\'s beloved Jorah from the grips of Greyscale. ',
         photo: 'samdany.png'
     },
     {
